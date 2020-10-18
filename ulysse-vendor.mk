@@ -19,6 +19,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Inherit fragments
 $(call inherit-product, vendor/xiaomi/ulysse/ulysse-vendor-camera.mk)
+$(call inherit-product, vendor/xiaomi/ulysse/ulysse-vendor-consumerir.mk)
 $(call inherit-product, vendor/xiaomi/ulysse/ulysse-vendor-qcrild.mk)
 
 PRODUCT_PACKAGES += \
