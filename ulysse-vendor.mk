@@ -23,6 +23,7 @@ $(call inherit-product, vendor/xiaomi/ulysse/ulysse-vendor-camera.mk)
 $(call inherit-product, vendor/xiaomi/ulysse/ulysse-vendor-consumerir.mk)
 $(call inherit-product, vendor/xiaomi/ulysse/ulysse-vendor-fingerprint.mk)
 $(call inherit-product, vendor/xiaomi/ulysse/ulysse-vendor-qcrild.mk)
+$(call inherit-product, vendor/xiaomi/ulysse/ulysse-vendor-vndk.mk)
 
 PRODUCT_PACKAGES += \
     libts_detected_face_hal \
